@@ -15,7 +15,7 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, #545352, #110e05);
+    background-image: linear-gradient(to right,#539bbf, #4060b8);
     padding: 0 !important;
 }
 .navbar-brand img
@@ -73,7 +73,9 @@ body
 }
 .Welcome{
     font-family: 'Arima';
+    color: #4060b8; 
 }
+
 
 /*--------Gallery-------------*/
 .column {
@@ -139,7 +141,16 @@ body
     text-align: center;
 }
 
+.row{
+    text-align: center;
+}
 /*--------------Pool Hours--------------*/
+#PoolHours{
+    padding: 40px 0;
+    background: #f8f9fa;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
 .poolH-::after {
     content: "";
     clear: both;
@@ -150,4 +161,10 @@ body
 }
 .hourtit{
     text-align: center;
+}
+
+.poolH{
+    border: 3px solid #4060b8;
+    width: 900px;
+    margin:auto;
 }
